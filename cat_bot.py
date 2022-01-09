@@ -1,7 +1,9 @@
 import requests
 from telebot import *
 
-bot = telebot.TeleBot("5051784869:AAEL3bORV78MzH27KUg8qRCLIe-2ADcQJSg")
+token = "" #token from @BotFather
+
+bot = telebot.TeleBot(token)
 
 
 @bot.message_handler(commands=['cat'])
